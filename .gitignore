@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.idea/
+.vscode/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+outputs/
+*.inspect.ndjson
+Thumbs.db
+.DS_Store

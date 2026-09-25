@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite the accompanying manuscript."
+title: "Enhanced DCG: code and example data for borehole fracture image analysis"
+type: software
+version: 1.0.0
+date-released: 2026-09-25
+license: MIT
+authors:
+  - family-names: Li
+    given-names: Tuo
+    email: 2021095@hebut.edu.cn
+    affiliation: Hebei University of Technology
+  - family-names: Wu
+    given-names: Rui
+  - family-names: Yang
+    given-names: Zhenjia
+  - family-names: Wu
+    given-names: Yang
+  - family-names: Nie
+    given-names: Wen
+  - family-names: Ma
+    given-names: Guowei
+repository-code: "https://github.com/littleyacai/enhanced-DCG"
+keywords:
+  - borehole image
+  - fracture recognition
+  - digital core generation
+  - semantic segmentation
+  - engineering geology
