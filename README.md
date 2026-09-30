@@ -8,18 +8,21 @@ Geosciences*.
 ## What is included
 
 - The complete processing code, including the trained DeepLabV3+ weights.
+- All case-study figures and associated materials presented directly in the
+  manuscript.
 - One 46.3 m panoramic borehole video and its manual fracture log.
 - All PNG intermediate and final outputs for that public example.
 - The fracture-parameter spreadsheets generated for the ten depth intervals.
 - Small, fast tests and repository-validation scripts.
 
-The full study used more than 500 boreholes, comprising all boreholes measured
-for the Dongzhuang Project. These engineering data are subject to
-confidentiality requirements and therefore cannot be released directly in this
-public repository. The included borehole is sufficient to exercise every stage
-of the published workflow, but it cannot by itself reproduce statistics
-calculated over the full study set. Researchers with a justified need may
-contact the corresponding author to request access; any release remains subject
+The complete Dongzhuang Project dataset used in the study comprises 530
+boreholes. The repository contains the case-study materials presented in the
+manuscript and one complete public example that exercises every stage of the
+published workflow. The remaining project records are subject to engineering
+confidentiality requirements and are not publicly released. Consequently, the
+public example cannot by itself reproduce aggregate statistics calculated over
+the complete 530-borehole dataset. Researchers with a justified need may
+contact the corresponding author to discuss access; any release remains subject
 to confidentiality review and authorization by the data owner.
 
 ## Repository layout
@@ -139,13 +142,14 @@ acceptance.
 ## Licenses
 
 Source code is released under the [MIT License](LICENSE). The example data,
-reference outputs, figures, and model weights are released under
-[CC BY 4.0](LICENSE-DATA.md), subject to confirmation by the data rights holder
-before public release.
+reference outputs, case-study figures, and model weights actually included in
+this repository are released under [CC BY 4.0](LICENSE-DATA.md). This license
+does not apply to the confidential 530-borehole project dataset, which is not
+distributed through this repository.
 
 ## Contact
 
 Tuo Li (corresponding author), School of Civil and Transportation Engineering,
 Hebei University of Technology. Email: 2021095@hebut.edu.cn. Requests for the
-confidential Dongzhuang Project borehole dataset should explain the intended
+confidential 530-borehole Dongzhuang Project dataset should explain the intended
 research use and remain subject to the necessary project authorization.

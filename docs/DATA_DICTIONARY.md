@@ -61,16 +61,18 @@ The primary fields exported by `fracture_parameter_table` are:
 ## Case-study figures
 
 `data/case_study_figures/` contains seven publication-oriented qualitative
-figures. They are supporting data and are not required by the command-line
+figures. These are the complete case-study figure files provided for the
+manuscript. They are supporting data and are not required by the command-line
 pipeline.
 
 ## Public-data scope
 
-Only the supplied example borehole is packaged. The manuscript-level dataset
-contains more than 500 boreholes and covers all boreholes measured for the
-Dongzhuang Project. These engineering records involve project confidentiality
-and therefore are not released directly. Researchers with a justified need may
-contact the corresponding author, Tuo Li (2021095@hebut.edu.cn), to discuss a
-data request. Access, if possible, remains subject to confidentiality review,
-the intended use, and authorization by the data owner; contacting the author
-does not guarantee that access can be granted.
+The repository packages all case-study materials presented directly in the
+manuscript and one complete example borehole for end-to-end reproduction. The
+complete Dongzhuang Project dataset comprises 530 boreholes. Raw records for
+the remaining boreholes involve project confidentiality and therefore are not
+released publicly. Researchers with a justified need may contact the
+corresponding author, Tuo Li (2021095@hebut.edu.cn), to discuss a data request.
+Access, if possible, remains subject to confidentiality review, the intended
+use, and authorization by the data owner; contacting the author does not
+guarantee that access can be granted.

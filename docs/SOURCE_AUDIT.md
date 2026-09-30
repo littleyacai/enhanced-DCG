@@ -72,11 +72,12 @@ download instructions, never broken placeholders.
 ## Limitations discovered
 
 - Only one input AVI and one manual reference workbook are publicly packaged.
-  The full research dataset contains more than 500 boreholes covering all
-  measured boreholes from the Dongzhuang Project. These records are not
-  released directly because they involve engineering confidentiality; justified
-  requests may be directed to the corresponding author and remain subject to
-  data-owner authorization.
+  The repository also contains all case-study figures supplied for the
+  manuscript. The complete research dataset comprises 530 boreholes from the
+  Dongzhuang Project. Raw records for the remaining boreholes are not released
+  directly because they involve engineering confidentiality; justified requests
+  may be directed to the corresponding author and remain subject to data-owner
+  authorization.
 - Training images and training labels were not supplied; inference is
   reproducible from the included weights, but model training is not.
 - The archived output lacks the final whole-borehole evaluation workbook. The

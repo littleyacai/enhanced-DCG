@@ -7,11 +7,11 @@
 2. **Unit/smoke checks** exercise image filtering, numerical evaluation, XLSX
    export, and model loading on a small image.
 3. **Example reproduction** reruns all processing stages for the 46.3 m example.
-4. **Full-study reproduction** requires more than 500 boreholes covering all
-   measured boreholes from the Dongzhuang Project. The data are confidential
-   engineering records and are not included in the public release. Researchers
-   with a justified need may contact the corresponding author to request
-   access, subject to project and data-owner authorization.
+4. **Full-study reproduction** requires the complete dataset of 530 boreholes
+   from the Dongzhuang Project. These data are confidential engineering records
+   and are not included in the public release. Researchers with a justified
+   need may contact the corresponding author to discuss access, subject to
+   project and data-owner authorization.
 
 ## Exact commands
 
@@ -63,19 +63,19 @@ labels.
 
 - The training images and label set used to fit the network were not present in
   the supplied folder; the repository contains the trained weights only.
-- The example cannot reproduce aggregate results for the complete Dongzhuang
-  Project study set. Confidential data may be requested from Tuo Li
-  (2021095@hebut.edu.cn), but release is not guaranteed and requires the
-  relevant authorization.
+- The public example cannot reproduce aggregate results for the complete
+  530-borehole Dongzhuang Project study set. Confidential data may be requested
+  from Tuo Li (2021095@hebut.edu.cn), but release is not guaranteed and requires
+  the relevant authorization.
 - The final report was absent from the archived run and is produced only by the
   corrected code.
 - QPI/QAI/CEI are documented as implementation-specific quantities; authors
   should define them explicitly in any manuscript text that retains the labels.
 
-## Before creating a public release
+## Release maintenance
 
-- Confirm that the authors may redistribute the AVI, manual log, figures, and
-  trained weights under the stated data license.
+- Do not add raw records from the confidential 530-borehole dataset without
+  authorization from the data owner.
 - Replace provisional citation metadata with the accepted title, DOI, journal,
   volume, pages/article number, and software archive DOI.
 - Create a versioned release and archive it with Zenodo or an equivalent
